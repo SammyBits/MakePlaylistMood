@@ -4,15 +4,12 @@
     "lib": ["ESNext", "DOM"],
     "target": "ESNext",
     "module": "ESNext",
-    "moduleDetection": "force",
+    "moduleResolution": "node", // Cambié esto de "bundler" a "node"
     "jsx": "react-jsx",
     "allowJs": true,
-
-    // Bundler mode
-    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
     "noEmit": true,
+    "esModuleInterop": true,
 
     // Best practices
     "strict": true,
@@ -23,5 +20,7 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
-  }
+  },
+  "include": ["src/**/*"], // Asegúrate de que TypeScript esté observando la carpeta correcta.
+  "exclude": ["node_modules"] // Excluye node_modules para evitar que TypeScript revise dependencias
 }
