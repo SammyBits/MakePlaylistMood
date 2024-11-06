@@ -17,13 +17,13 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-repository.git
+    git clone [https://github.com/your-repository.git](https://github.com/SammyBits/MakePlaylistMood)
     ```
 
 2. Navigate into the project directory:
 
     ```bash
-    cd your-repository
+    cd MakePlaylistMood
     ```
 
 3. Install dependencies:
