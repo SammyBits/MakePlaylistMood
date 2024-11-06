@@ -1,4 +1,4 @@
-# Project Name
+# MakePlaylistMood
 
 + This is a backend application that integrates with Spotify API to create personalized playlists based on user input, leveraging both AI and database technologies like SQLite and Redis.
 
