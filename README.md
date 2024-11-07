@@ -17,7 +17,7 @@
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/your-repository.git](https://github.com/SammyBits/MakePlaylistMood)
+    git clone https://github.com/SammyBits/MakePlaylistMood
     ```
 
 2. Navigate into the project directory:
@@ -92,14 +92,14 @@
 
 + The project uses the following technologies:
 
-- **Node.js** for the server-side JavaScript runtime.
-- **Express** for creating the HTTP API.
-- **Spotify Web API** for interacting with Spotify's music and playlists features.
-- **Redis** for caching access tokens to optimize the API requests.
-- **SQLite** for storing refresh tokens securely.
-- **Gemini AI** for extracting keywords from text prompts to generate playlists.
-- **dotenv** for loading environment variables.
-- **morgan** for logging HTTP requests during development.
++ **Node.js** for the server-side JavaScript runtime.
++ **Express** for creating the HTTP API.
++ **Spotify Web API** for interacting with Spotify's music and playlists features.
++ **Redis** for caching access tokens to optimize the API requests.
++ **SQLite** for storing refresh tokens securely.
++ **Gemini AI** for extracting keywords from text prompts to generate playlists.
++ **dotenv** for loading environment variables.
++ **morgan** for logging HTTP requests during development.
 
 ## How it Works
 
